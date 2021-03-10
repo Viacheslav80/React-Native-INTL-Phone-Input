@@ -123,7 +123,7 @@ const Countries = [
   { ru:"Лихтенштейн",lt:"Lichtenšteinas",tr:"Lihtenştayn", en: 'Liechtenstein',flag: '🇱🇮',code: 'LI', dialCode: '+423', mask: '999 999 999' },
   { ru:"Литва",lt:"Lietuva",tr:"Litvanya", en: 'Lithuania',flag: '🇱🇹',code: 'LT', dialCode: '+370', mask: '(9-999) 9999' },
   { ru:"Люксембург",lt:"Liuksemburgas",tr:"Lüksemburg", en: 'Luxembourg',flag: '🇱🇺',code: 'LU', dialCode: '+352', mask: '999 999 999' },
-  { ru:"Macao",lt:"Makao",tr:"Macao", en: 'Macao',flag: '🇲🇴',code: 'MO', dialCode: '+853', mask: '9999 9999' },
+  { ru:"Макао",lt:"Makao",tr:"Macao", en: 'Macao',flag: '🇲🇴',code: 'MO', dialCode: '+853', mask: '9999 9999' },
   { ru:"Македония",lt:"Makedonija",tr:"Makedonya", en: 'Macedonia',flag: '🇲🇰',code: 'MK', dialCode: '+389', mask: '999 999 999' },
   { ru:"Мадагаскар",lt:"Madagaskaras",tr:"Madagaskar", en: 'Madagascar',flag: '🇲🇬',code: 'MG', dialCode: '+261', mask: '999 99 999 99' },
   { ru:"Малави",lt:"Malavis",tr:"Malawi", en: 'Malawi',flag: '🇲🇼',code: 'MW', dialCode: '+265', mask: '9999 99 99 99' },
