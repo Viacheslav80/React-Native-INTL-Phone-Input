@@ -55,6 +55,20 @@ export default class IntlPhoneInput extends React.Component {
     }
   }
 
+  componentDidUpdate(prevProps) {
+    if (prevProps.defaultCountry !== this.props.defaultCountry) {
+      const newCountry = data.find(
+        (obj) => obj.code === this.props.defaultCountry
+      );
+      this.setState({
+        flag: newCountry.flag,
+        dialCode: newCountry.dialCode,
+        mask: newCountry.mask,
+        selectedCountry: newCountry,
+      });
+    }
+  }
+
   onChangePropText = (unmaskedPhoneNumber, phoneNumber) => {
     const { dialCode, mask, selectedCountry } = this.state;
     const countOfNumber = mask.match(/9/g).length;
