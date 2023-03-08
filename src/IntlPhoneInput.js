@@ -51,7 +51,7 @@ export default class IntlPhoneInput extends React.Component {
         dialCode: country.dialCode,
         mask: country.mask,
       });
-      this.onChangeText(phoneNumber);
+      setTimeout(() => this.onChangeText(phoneNumber), 50);
     }
   }
 
@@ -261,7 +261,7 @@ export default class IntlPhoneInput extends React.Component {
       inputProps,
       placeholderTextColor,
     } = this.props;
-    console.log("phoneNumber->", this.state.phoneNumber);
+    console.log("phoneNumber-->", this.state);
     return (
       <View style={{ ...styles.container, ...containerStyle }}>
         <TouchableOpacity onPress={() => this.showModal()}>
